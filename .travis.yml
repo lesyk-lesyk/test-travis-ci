@@ -7,7 +7,7 @@ env:
   - secure: Am2989lFfvpv/V8NRTCoiJZf6had0JZOVdkK4++pDD31w6ftSTqWIzWkQu9vSd6Vg3+QsnOisaH0jOA5GIddFrg4w+rS9BiMJkAXaqSV8sILalRAH+S62/3yVRTSlPsRDBsna2zopZQW6ZDeKC/WImAcY8At+ndR2WP9giyEbHA=
 before_install:
 - travis_retry gem install bitballoon
-after_success: bitballoon deploy output --access-token=f886e784bcdfb1bf04aecb7d9e03929d7b4498e7345089fa327cfcddd13c9af1 --site-id=weather-client
+after_success: bitballoon deploy output --access-token=f886e784bcdfb1bf04aecb7d9e03929d7b4498e7345089fa327cfcddd13c9af1 --site-id=masseur-tar-63421.bitballoon.com
 branches:
   only:
     - master
